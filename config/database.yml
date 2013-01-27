@@ -1,0 +1,14 @@
+development:
+  adapter: postgresql
+  database: master_it_develop
+  pool: 5
+  timeout: 5000
+  username: postgres
+  password:
+test:
+  adapter: postgresql
+  database: master_it_test
+  pool: 5
+  timeout: 5000
+  username: postgres
+  password:
